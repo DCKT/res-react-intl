@@ -50,7 +50,7 @@ let extract = (~duplicatesAllowed=false, paths) => {
     if (Sys.is_directory(path)) {
       Sys.readdir(path)
       |> Array.iter(filename => processPath(Filename.concat(path, filename)));
-    } else if (Filename.extension(path) == ".re") {
+    } else if (Filename.extension(path) == ".re" || Filename.extension(path) == ".res") {
       processReasonFile(path);
     };
   };
