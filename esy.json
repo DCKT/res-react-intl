@@ -1,5 +1,5 @@
 {
-  "name": "@colisweb/res-react-intl",
+  "name": "@dck/res-react-intl",
   "version": "3.1.2",
   "description": "Reason/OCaml PPX generating ReactIntl `id` from `defaultMessage`",
   "author": "Simon Degraeve <simon.degraeve@gmail.com>",
